@@ -1,5 +1,5 @@
 {
-    "name": "jane-php/jane-php",
+    "name": "antoineveldhoven/jane-php",
     "description": "All jane libraries into one repository",
     "license": "MIT",
     "authors": [
@@ -36,15 +36,15 @@
         "symfony/validator": "^5.1 || ^6.0"
     },
     "replace": {
-        "jane-php/json-schema": "self.version",
-        "jane-php/json-schema-bundle": "self.version",
-        "jane-php/json-schema-runtime": "self.version",
-        "jane-php/open-api-common": "self.version",
-        "jane-php/open-api-bundle": "self.version",
-        "jane-php/open-api": "self.version",
-        "jane-php/open-api-2": "self.version",
-        "jane-php/open-api-3": "self.version",
-        "jane-php/open-api-runtime": "self.version"
+        "antoineveldhoven/json-schema": "self.version",
+        "antoineveldhoven/json-schema-bundle": "self.version",
+        "antoineveldhoven/json-schema-runtime": "self.version",
+        "antoineveldhoven/open-api-common": "self.version",
+        "antoineveldhoven/open-api-bundle": "self.version",
+        "antoineveldhoven/open-api": "self.version",
+        "antoineveldhoven/open-api-2": "self.version",
+        "antoineveldhoven/open-api-3": "self.version",
+        "antoineveldhoven/open-api-runtime": "self.version"
     },
     "require-dev": {
         "doctrine/annotations": "~1.0",
@@ -100,8 +100,17 @@
         "sort-packages": true,
         "allow-plugins": {
             "php-http/discovery": false
+        },
+        "github-oauth": {
+            "github.com": "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"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/antoineveldhoven/janephp"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
